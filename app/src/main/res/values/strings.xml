@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bible Emergency Numbers</string>
+    <string name="error">Error: can\'t show text.</string>
+</resources>

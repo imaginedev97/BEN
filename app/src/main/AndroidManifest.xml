@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imagine.bibleemergencynumbers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BibleEmergencyNumbers">
+        <activity android:name=".TwentyFiveActivity" />
+        <activity android:name=".TwentyFourActivity" />
+        <activity android:name=".TwentyThreeActivity" />
+        <activity android:name=".TwentyTwoActivity" />
+        <activity android:name=".TwentyOneActivity" />
+        <activity android:name=".TwentyActivity" />
+        <activity android:name=".NineteenActivity" />
+        <activity android:name=".EighteenActivity" />
+        <activity android:name=".SeventeenActivity" />
+        <activity android:name=".SixteenActivity" />
+        <activity android:name=".FifteenActivity" />
+        <activity android:name=".FourteenActivity" />
+        <activity android:name=".ThirteenActivity" />
+        <activity android:name=".TwelveActivity" />
+        <activity android:name=".ElevenActivity" />
+        <activity android:name=".TenActivity" />
+        <activity android:name=".NineActivity" />
+        <activity android:name=".EightActivity" />
+        <activity android:name=".SevenActivity" />
+        <activity android:name=".SixActivity" />
+        <activity android:name=".FiveActivity" />
+        <activity android:name=".FourActivity" />
+        <activity android:name=".ThreeActivity" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
